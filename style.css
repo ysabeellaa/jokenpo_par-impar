@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+body{
+    background-color: #242424;
+    padding-top: 50px;
+}
+.containerChoices{
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    color:white;
+    justify-content: center;
+    margin-block-end: 1em; 
+}
+.containerChoices > i:active{
+    border: 5px solid #800000;
+}
+.fa-hand-scissors-o, .fa-hand-paper-o{
+    border: 5px solid white;
+    border-radius: 45%;
+    padding: 30px;
+    background-color: #242424;
+    margin: 15px;
+}
+.fa-hand-rock-o{
+    border: 5px solid white;
+    padding: 30px 40px;
+    border-radius: 45%;
+    margin: 15px;
+ 
+}
+.scoreboard{
+  position: relative;
+  color: #ffffff;
+  width: 270px;
+  margin: 10px auto 60px auto;;
+}
+#scores{
+  font-size: 50px;
+  border: 3px solid white;
+  width: 270px;
+  padding: 30px;
+}
+
+#userScore{
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+#compScore{
+  padding-left: 20px;
+  color: #ffffff;
+}
+#result{
+  color: #ffffff;
+}
+
+.scoreLabel{
+  width: 50px;
+  color: #ffffff;
+}
+#userLabel{
+  position: absolute;
+  top: 10px;
+  left: 60px;
+}
+
+#compLabel{
+  position: absolute;
+  top: 10px;
+  right: 60px;
+}
+.result{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+  footer{
+    position: absolute;
+    font-family:  "Open Sans";
+    height: auto;
+    width: 100vw;
+    color: #800000;
+    padding-top: 40px;
+    bottom: 0;
+  }
+
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-end: 1em;
+  }
+
+  .footer-content ul{
+    list-style: none;
+    display: flex;
+    margin-block-end: -1em; 
+  }
+
+.footer-content i{
+  font-size: 2em;
+  color: gray;
+  padding: 0px 2px 0px 4px; 
+}
+
+  .footer-content a:hover i{
+    color: #800000
+  }
+
+  p{
+    align-items: center;
+    color: gray;
+    text-align: center;
+
+  }
+
+
+  .green-win {
+    border: 4px solid #4dcc7d !important;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-lose {
+    border: 4px solid #fc121b !important;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 4px solid #464647 !important;
+    box-shadow: 0 0 10px #25292b;
+}
+  
